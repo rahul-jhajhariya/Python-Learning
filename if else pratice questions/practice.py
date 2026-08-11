@@ -155,17 +155,17 @@ Balance sufficient hai → withdrawal allow karo
 Otherwise → insufficient balance
 PIN incorrect → access denied
 """
-pinn=123456
-bal=15000
-pin=int(input("Enter your pin:"))
-if pinn==pin:
-    withdrawl=int(input("Enter the withdrawl amount:"))
-    if bal>=withdrawl:
-        bal=bal-withdrawl
-        print("withdrawl succesful")
-        print("remaining bal is:",bal)
-    else:
-        print("insufficent balance")
-else:
-    print("access denied")
+# pinn=123456
+# bal=15000
+# pin=int(input("Enter your pin:"))
+# if pinn==pin:
+#     withdrawl=int(input("Enter the withdrawl amount:"))
+#     if bal>=withdrawl:
+#         bal=bal-withdrawl
+#         print("withdrawl succesful")
+#         print("remaining bal is:",bal)
+#     else:
+#         print("insufficent balance")
+# else:
+#     print("access denied")
 #---------------------------------------------------------------------------------------------------------------------
