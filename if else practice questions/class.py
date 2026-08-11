@@ -6,3 +6,10 @@ english=float(input("Enter your english marks:"))
 
 avg=(maths+chemistry+physics+english+computer)/5
 print(avg)
+
+if avg>75:
+    print("Excellent student")
+elif avg>50:
+    print("average student")
+else:
+    print("need improvement")
