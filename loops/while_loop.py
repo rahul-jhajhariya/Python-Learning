@@ -177,10 +177,75 @@ function. Use a while loop.
 """
 16. Write a program to print the first n terms of the sequence 2, 4, 6, 8, 10... using a while loop.
 """
-n=6
-seq=2
-while n>0:
-    print(seq)
-    seq+=2
-    n-=1
+# n=6
+# seq=2
+# while n>0:
+#     print(seq)
+#     seq+=2
+#     n-=1
+#--------------------------------------------------------------------------------------------
+"""
+17. Write a program to print the first n terms of the sequence 1, 3, 6, 10, 15... using a while loop. Each term is
+formed by adding the next counting number.
+"""
+# n=6
+# num=0
+# count=1
+# while n>0:
+#     num=num+count
+#     count+=1
+#     n-=1
+#     print(num,end=" ")
+
+#--------------------------------------------------------------------------------------------
+"""
+18. Write a program that repeatedly asks the user to enter a number until the user enters 0. At the end, print
+the sum of all non-zero numbers entered.
+"""
+# sum=0
+# while True:
+#     num=int(input("Enter a number:"))
+#     if num==0:
+#         break
+#     sum=sum+num
+# print(sum)
+
+#--------------------------------------------------------------------------------------------
+"""
+19. Write a program that repeatedly asks the user to enter marks until the user enters -1. Count how many
+entered marks are passing (50 or above) and how many are failing (below 50). Assume valid marks are 0 to
+100.
+"""
+# pas=0
+# fail=0
+# while True:
+#     marks=int(input("Enter your marks:"))
+#     if marks<0 or marks>100:
+#         break
+#     if marks>=50:
+#         pas+=1
+#     if marks<50:
+#         fail+=1
+# print(f"fail = {fail} pass = {pas}")
+
+#--------------------------------------------------------------------------------------------
+"""
+20. Write a program for a simple PIN check using a while loop. Give the user a maximum of 3 attempts to
+enter the correct PIN. Print Access Granted when correct; otherwise print Account Locked after 3 wrong
+attempts.
+"""
+# attempts=3
+# correct_pin=123456
+# while True:
+#     pin=int(input("Enter your pin: "))
+#     if pin==correct_pin:
+#         print("access is granted")
+#         break
+#     else:
+#         attempts-=1
+#         print(f"access is denied, you have {attempts} attempts left")
+#     if attempts==0:
+#         print("your account is locked after 3 wrong attempts")
+#         break
+
 #--------------------------------------------------------------------------------------------
