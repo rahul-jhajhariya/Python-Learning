@@ -114,7 +114,7 @@ Q15. Given the string "Learn Python Every Day", use slicing to extract the word 
 the extracted word to uppercase and then use isupper() to verify the result. Print the original
 extracted word, converted word, and verification result.
 """
-st="Learn Python Every Day"
-st=st[6:12]
-st=st.upper()
-print(st.isupper())
+# st="Learn Python Every Day"
+# st=st[6:12]
+# st=st.upper()
+# print(st.isupper())
