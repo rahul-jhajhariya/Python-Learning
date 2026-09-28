@@ -84,9 +84,34 @@
 """
 8. Rotate a list to the left by k positions Input: [1,2,3,4,5], k=2
 """
-lst=[1,2,3,4,5]
-k=2
-for i in range(k):
-    first=lst.pop(0)
-    lst.append(first)
-print(lst)
+# lst=[1,2,3,4,5]
+# k=2
+# for i in range(k):
+#     first=lst.pop(0)
+#     lst.append(first)
+# print(lst)
+
+#-------------------------------------------------------------------------------------------------------
+"""
+9. Find the longest consecutive sequence in a list Input: [1,2,3,10,11,12,13]
+"""
+# data= [1,2,3,4,6,5,10,11,12,13]
+# data.sort()
+# longest=[]
+# current=[data[0]]
+# for i in range(1,len(data)):
+#     if data[i]==data[i-1]+1:
+#         current.append(data[i])
+#     else:
+#         if len(current)>len(longest):
+#             longest=current
+#         current=[data[i]]
+# if len(current)>len(longest):
+#     longest=current
+# print(longest)
+# print(len(longest))
+
+#-------------------------------------------------------------------------------------------------------
+"""
+
+"""
